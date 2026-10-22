@@ -1,0 +1,5 @@
+[
+{"group":"Programming","items":[{"name":"HTML & CSS","level":85},{"name":"JavaScript","level":70},{"name":"Python","level":75}]},
+{"group":"Data and tools","items":[{"name":"SQL / MySQL","level":65},{"name":"Git & GitHub","level":70},{"name":"Microsoft Office","level":85}]},
+{"group":"Soft skills","items":[{"name":"Problem solving","level":80},{"name":"Teamwork","level":80}]}
+]

@@ -1,0 +1,6 @@
+@media(max-width:820px){
+ #menu-btn{display:block}
+ nav{display:none;position:absolute;top:calc(100% + .5rem);left:0;right:0;flex-direction:column;gap:.5rem;padding:1rem 1.2rem;background:var(--bg2);border:1px solid var(--line);border-radius:16px}
+ nav.open{display:flex}
+ .hero,.two{grid-template-columns:1fr}.hero{text-align:center;padding-top:7rem}.hero .actions,.hero .socials{justify-content:center}.avatar{order:-1;width:200px}
+}

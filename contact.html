@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Your Name, ITE Student</title>
+<meta name="description" content="Get in touch by email, phone or the contact form.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/animations.css">
+<script src="js/theme.js"></script>
+</head>
+<body data-page="contact">
+<a class="skip" href="#main">Skip to content</a>
+<header class="glass nav"><a class="brand" href="index.html">YN<span>.</span></a>
+<nav id="menu" aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="education.html">Education</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></nav>
+<button id="theme-btn" aria-label="Toggle dark or light theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
+<button id="menu-btn" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button></header>
+<main id="main">
+<section class="container"><h1>Contact</h1>
+<div class="two">
+<div class="glass card"><h3>Details</h3>
+<p><i class="fa-solid fa-envelope"></i> you@example.com</p>
+<p><i class="fa-solid fa-phone"></i> +855 00 000 000</p>
+<p><i class="fa-solid fa-location-dot"></i> Phnom Penh, Cambodia</p>
+<div class="socials"><a href="https://github.com/yourname" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://linkedin.com/in/yourname" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></div></div>
+<form id="contact-form" class="glass card" novalidate>
+ <label for="name">Name</label><input id="name" name="name" autocomplete="name" required>
+ <small class="err" data-for="name"></small>
+ <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+ <small class="err" data-for="email"></small>
+ <label for="subject">Subject</label><input id="subject" name="subject" required>
+ <small class="err" data-for="subject"></small>
+ <label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea>
+ <small class="err" data-for="message"></small>
+ <button class="btn" type="submit">Send message</button>
+ <p id="form-status" role="status"></p>
+</form></div></section>
+</main>
+<footer class="container"><p class="muted">© 2026 Your Name. Built with HTML, CSS, JavaScript and Flask.</p></footer>
+<button id="top-btn" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="js/main.js" defer></script><script src="js/contact.js" defer></script>
+</body></html>

@@ -1,0 +1,6 @@
+/* One page-load reveal for the hero, and a gentle lift when cards scroll into view */
+.hero-text,.avatar{animation:rise .8s ease both}.avatar{animation-delay:.15s}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}.reveal.in{opacity:1;transform:none}
+.card,.btn{transition:transform .25s,box-shadow .25s}.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(139,92,246,.25)}.btn:hover{transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}

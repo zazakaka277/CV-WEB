@@ -1,0 +1,5 @@
+[
+{"title":"Personal Portfolio","image":"assets/images/projects/portfolio.svg","description":"This responsive CV site with a dark and light theme and a Flask contact form.","tech":["HTML","CSS","JavaScript","Flask"],"github":"https://github.com/yourname/portfolio","demo":"#"},
+{"title":"Student Management System","image":"assets/images/projects/sms.svg","description":"Add, search and update student records stored in a MySQL database.","tech":["Python","MySQL","Flask"],"github":"https://github.com/yourname/student-management","demo":"#"},
+{"title":"Pet Adoption Website","image":"assets/images/projects/pets.svg","description":"Browse pets, filter by type and send an adoption request.","tech":["HTML","CSS","JavaScript"],"github":"https://github.com/yourname/pet-adoption","demo":"#"}
+]
